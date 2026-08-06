@@ -144,36 +144,42 @@ p{
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
+.btn-livro:hover{
+    background-color: rgb(8, 7, 100);
+    box-shadow: 0px 4px 8px rgb(8, 7, 100)
+}
+
 .categoria-livro{
     font-size: 16px;
     font-weight: 400;
-    color: var(--branco-fonte);
-    background-color: var(--branco-fonte);
+    color: white;
     padding: 5px;
     border-radius: 15px;
 
 }
 
-.btn-livro:hover{
-    background-color: rgb(187, 46, 46);
-}
-
 .titulo-livro{
-    font-size:  16px;
-    margin-bottom: 16px;
-    color: white;
+    font-size: 25px;
+    color: rgb(238, 200, 29);
+    padding: 10px 0;
+}
+ 
+.autores-livro{
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: rgb(8, 7, 100)
 }
 
 .container-livros {
   display: flex;          
-  flex-direction: row;   
-  gap: 20px;             
+  flex-direction: row;  
+  gap: 20px;            
   flex-wrap: wrap;
 }
-
+ 
 .card-livro {
   flex: 1;                
-  min-width: 250px;       
+  min-width: 250px;      
   max-width: 350px;
 }
- 
+
