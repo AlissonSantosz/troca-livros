@@ -128,7 +128,12 @@ p{
 }
 
 .info-livro{
-    padding-top: 20px;
+    height: 250px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
 
 }
 
@@ -226,4 +231,20 @@ p{
   }
   
 }
+
+.footer{
+    background-color: #731097;
+}
  
+.footer-conrtainer{
+    margin: 0 auto;
+    width: 90vw;
+    background-color: #731097;
+    color: white;
+    display: flex;
+}
+
+.footer-couluna{
+    display: flex;
+    flex-direction: coluna;
+}
