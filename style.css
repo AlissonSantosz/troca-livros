@@ -7,6 +7,18 @@
      font-style: normal;
 }
 
+#Inicio{
+    scroll-margin-top: 10vh;
+}
+
+#Livros{
+    scroll-margin-top: 20vh;
+}
+
+#Ajuda{
+    scroll-margin-top: 10vh;
+}
+
 header{
     background-color: rgb(150, 21, 167);
     color: white;
@@ -17,6 +29,8 @@ header{
     color: rgb(8, 7,);
     align-items: center;
     padding: 0 100px ;
+    box-sizing: border-box;
+    top: 0;
 }
 
 #nome-logo{
@@ -305,4 +319,21 @@ footer{
 .footer-copy{
     margin-top: 20px;
     text-align: center;
+    font-size: 22px;
 }
+
+.footer-social i{
+    font-size: 40px;
+    color: #731097;
+}
+
+.footer-social i:hover{
+     color: white;
+     transform: scale(1.1) ;
+}
+
+.footer-coluna li a:hover{
+    color:  #731097;
+    font-weight: 600;
+}
+
