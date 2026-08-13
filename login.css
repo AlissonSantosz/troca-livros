@@ -1,0 +1,31 @@
+@import url(style.css);
+ 
+main{
+    width: 1142px;
+    height: 673px;
+    border: 2px solid #731097;
+    margin: 10vh auto;
+    background-image: linear-gradient(rgb(150, 21, 167, 35%),rgb(8, 7, 100, 35%) );
+    display: flex;
+}
+
+.sessao-imagem{
+    width: 512px;
+    height: 673px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.area-titulo{
+text-align: center;
+}
+
+.area-titulo h1,span{
+    font-size: 36px;
+    padding-bottom: 5px;
+}
+
+.area-titulo h2{
+    font-size: 24px;
+}
