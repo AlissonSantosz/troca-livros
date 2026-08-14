@@ -1,11 +1,20 @@
 @import url(style.css);
  
+body{
+    background-image: linear-gradient(rgb(150, 21, 167, 50%),rgb(8, 7, 100, 80%) );
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 main{
     width: 1142px;
     height: 673px;
     border: 2px solid #731097;
     margin: 10vh auto;
-    background-image: linear-gradient(rgb(150, 21, 167, 35%),rgb(8, 7, 100, 35%) );
+    background-image: linear-gradient(rgb(150, 21, 167, 50%),rgb(8, 7, 100, 80%) );
     display: flex;
 }
 
@@ -28,4 +37,54 @@ text-align: center;
 
 .area-titulo h2{
     font-size: 24px;
+    color: rgb(8, 7, 100);
+}
+
+.sessao-login{
+    height: 673px;
+    width: 620px ;
+}
+.area-titulo span{
+    color: rgb(8, 7, 100);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 434px;
+    gap: 10px;
+    margin: auto;
+}
+
+form input{
+    height: 40px;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+#email{
+    margin-bottom: 15px;
+}
+
+button{
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.links-senha{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
+
+.links-senha label{
+    position: relative;
+    right: 75px;
+    bottom: 3px;
+}
+
+.links-senha label, input, a{
+    color: black;
 }
