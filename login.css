@@ -1,7 +1,7 @@
 @import url(style.css);
  
 body{
-    background-image: linear-gradient(rgb(150, 21, 167, 50%),rgb(8, 7, 100, 80%) );
+    background-image: linear-gradient(rgb(150, 21, 167, 50%),rgb(8, 7, 100, 50%) );
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -11,19 +11,23 @@ body{
 
 main{
     width: 1142px;
-    height: 673px;
-    border: 2px solid #731097;
+    height: 661px;
     margin: 10vh auto;
-    background-image: linear-gradient(rgb(150, 21, 167, 50%),rgb(8, 7, 100, 80%) );
     display: flex;
+    box-shadow: 0 0 20px #06135c;
+    border-radius: 10px; 
 }
 
 .sessao-imagem{
-    width: 512px;
-    height: 673px;
+    width: 510px;
+    height: 661px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.sessao-imagem img{
+    border-radius: 10px 0 0 10px;
 }
 
 .area-titulo{
@@ -70,6 +74,11 @@ button{
     height: 40px;
     padding: 10px;
     font-size: 18px;
+    background-image: linear-gradient( to right, rgb(150, 21, 167, 80%),rgb(8, 7, 100, 80%) );
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .links-senha{
@@ -87,4 +96,13 @@ button{
 
 .links-senha label, input, a{
     color: black;
+    font-weight: 400;
+}
+
+section a:hover{
+   color: blueviolet;
+}
+
+#link-nao-conta{
+    text-align: center;
 }
