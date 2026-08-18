@@ -79,6 +79,8 @@ button{
     color: #FFF;
     font-size: 18px;
     font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.2s;
 }
 
 .links-senha{
