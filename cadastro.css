@@ -1,11 +1,16 @@
 @import url(login.css);
 
-.cadastro-senha{
+.cadastro-senha {
     display: flex;
-    gap: 7px;
-}
-
-.cadastro-senha input{
+    gap: 30px; 
     width: 100%;
 }
 
+.campo-senha {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+}
+.cadastro-senha input {
+    width: 100%;
+}
