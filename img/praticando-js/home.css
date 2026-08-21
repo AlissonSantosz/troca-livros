@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    margin: 20px auto;
+    width: 75vw;
+    text-align: center;
+}
+
+h2{
+    background-color: rgb(150, 21, 167);
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px;
+    padding: 3px;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+#caixa{
+    width: 400px;
+    height: 200px;
+    background-color: #4240a5;
+    margin: 20px auto;
+}
+
+.btn{
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+
+
+
