@@ -16,7 +16,7 @@ main{
 }
 
 h2{
-    background-color: rgb(150, 21, 167);
+    background-color: rgb(55, 189, 155);
     border-radius: 10px;
     font-size: 18px;
     font-weight: 400;
@@ -29,9 +29,10 @@ input{
 }
 
 #caixa{
-    width: 400px;
-    height: 200px;
+    width: 300px;
+    height: 100px;
     background-color: #4240a5;
+    box-shadow: 0 0 20px;
     margin: 20px auto;
 }
 
@@ -40,6 +41,22 @@ input{
     margin-right: 10px;
 }
 
+.area_add_sub{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  font-size: 22px;
+}
 
+.area_add_sub button{
+    padding: 5px 10px;
+    background-color: blue;
+    border: 1px solid rgb(77, 212, 133);
+    color: white;
+    border-radius: 5px;
+}
 
-
+.area_add_sub button:hover{
+    background-color: blue;
+}
